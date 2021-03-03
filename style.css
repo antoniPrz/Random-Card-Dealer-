@@ -1,55 +1,46 @@
-body{
-
-    background: green;
+body {
+  background: green;
 }
 
-#card{
-
-    width: 400px;
-    height: 600px;
-background: white;
-border-radius: 3%;
-margin: auto;
-position: relative;
-
-
+#card {
+  width: 400px;
+  height: 600px;
+  background: white;
+  border-radius: 3%;
+  margin: auto;
+  position: relative;
 }
 
-#pinta-1{
-
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    font-size: 55px;
-   
+#pinta-1 {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 55px;
 }
 
-#pinta-2{
-position: absolute;
-bottom: 10px;
-right: 10px;
-font-size: 55px;
-transform: rotate(-180deg);
+#pinta-2 {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-size: 55px;
+  transform: rotate(-180deg);
 }
 
-#numero{
+#numero {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 55px;
 
-
-
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%,-50%);
-    font-size: 55px;
-
-    /* position: absolute; 
+  /* position: absolute; 
     left: 0; 
     right: 0; 
     margin-left: auto; 
     margin-right: auto; 
     width: 100px */
 
-/* 
+  /* 
  position: absolute;
  left: 50%;
  top: 50%;
